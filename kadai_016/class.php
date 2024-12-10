@@ -15,8 +15,8 @@
              private $price;
     
              // メソッドを定義する
-             public function show_price() {
-                return $this->price;
+             function show_price() {
+                echo $this->price;
              }
 
              // コンストラクタを定義する
@@ -45,8 +45,8 @@
          
 
              // メソッドを定義する
-             public function show_height() {
-                return $this->height;
+             function show_height() {
+                echo $this->height;
              }
 
              // コンストラクタを定義する
